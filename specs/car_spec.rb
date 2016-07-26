@@ -28,6 +28,7 @@ class TestCar < MiniTest::Test
     @lambo.accelerate
     @lambo.brake
     # @lambo.accelerate.accelerate.accelerate
+    #                  ^ doesn't work
     assert_equal(10, @lambo.speed)
   end 
 
